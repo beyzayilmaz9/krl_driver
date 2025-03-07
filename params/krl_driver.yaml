@@ -1,0 +1,9 @@
+krl_driver_node:
+  ros__parameters:
+    # port of stm32
+    port: '/dev/ttyACM0'
+    # Number of slots of encoder wheel resolution
+    num_slots: 3008
+    # Minimum publish time
+    min_publish_time: 0.5
+buffer_size: 4
